@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>notification_events_example</id>
+    <version>1.0</version>
+    <priority>1</priority>
+    <default_language>en</default_language>
+    <compatibility>
+        <core_version>
+            <min>4.11.1</min>
+        </core_version>
+    </compatibility>
+    <email_templates type="file">resources/email_templates.xml</email_templates>
+</addon>

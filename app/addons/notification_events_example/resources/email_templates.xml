@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<email_templates scheme="1.0">
+    <templates>
+        <item>
+            <code><![CDATA[notification_events_example_stub]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ __("notification_events_example.notification.title") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[
+{{ __("notification_events_example.notification.message.text", {"[random_number]": random_number, "[current_timestamp]": current_timestamp}) }}
+]]></default_template>
+            <params_schema/>
+            <params/>
+            <addon><![CDATA[notification_events_example]]></addon>
+        </item>
+    </templates>
+    <snippets/>
+</email_templates>

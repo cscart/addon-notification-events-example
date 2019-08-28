@@ -1,0 +1,49 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::notification_events_example"
+msgid "Notifications sample add-on"
+msgstr "Notifications sample add-on"
+
+msgctxt "Addons::description::notification_events_example"
+msgid "A dummy add-on that extends the notification mechanism"
+msgstr "A dummy add-on that extends the notification mechanism"
+
+msgctxt "Languages::event.transport.stub"
+msgid "Stub"
+msgstr "Stub"
+
+msgctxt "Languages::notification_events_example.event.group.stub"
+msgid "Stub group"
+msgstr "Stub group"
+
+msgctxt "Languages::notification_events_example.event.stub"
+msgid "Stub event for [product]"
+msgstr "Stub event for [product]"
+
+msgctxt "Languages::event.receiver.stub"
+msgid "Stub"
+msgstr "Stub"
+
+msgctxt "Languages::notification_events_example.notification.title"
+msgid "Stub notification title"
+msgstr "Stub notification title"
+
+msgctxt "Languages::notification_events_example.notification.message"
+msgid "The random number is [random_number]. The current timestamp is [current_timestamp].<br>Click here to view a message delivered via the Stub transport."
+msgstr "The random number is [random_number]. The current timestamp is [current_timestamp].<br>Click here to view a message delivered via the Stub transport."
+
+msgctxt "Languages::notification_events_example.notification.message.text"
+msgid "The random number is [random_number]. The current timestamp is [current_timestamp]."
+msgstr "The random number is [random_number]. The current timestamp is [current_timestamp]."
+
+msgctxt "Languages::notification_events_example.event_triggered"
+msgid "The Stub event has been triggered"
+msgstr "The Stub event has been triggered"
+
+msgctxt "Languages::notification_events_example.trigger_event"
+msgid "Trigger the Stub event"
+msgstr "Trigger the Stub event"
