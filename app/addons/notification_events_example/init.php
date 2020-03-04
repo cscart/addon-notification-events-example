@@ -1,6 +1,6 @@
 <?php
 
-use Tygh\Addons\NotificationEventsExample\ServiceProvider;
+use Tygh\Addons\NotificationEventsExample\Notifications\ServiceProvider;
 
 defined('BOOTSTRAP') or die('Access denied');
 
