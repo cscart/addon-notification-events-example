@@ -29,7 +29,7 @@ class StubTransport implements ITransport
     public function process(BaseMessageSchema $schema)
     {
         if (!$schema instanceof StubMessageSchema) {
-            throw new DeveloperException('Input data should be instance of InternalMessageSchema');
+            throw new DeveloperException('Input data should be instance of StubMessageSchema');
         }
 
         fn_log_event(
