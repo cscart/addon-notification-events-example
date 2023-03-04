@@ -23,10 +23,11 @@ class StubTransport implements ITransport
      * Processes a message of an event.
      *
      * @param \Tygh\Notifications\Transports\BaseMessageSchema $schema Schema
+     * @param \Tygh\Notifications\Receivers\SearchCondition[]  $receiver_search_conditions
      *
      * @return bool Whether a message was successfully processed
      */
-    public function process(BaseMessageSchema $schema)
+    public function process(BaseMessageSchema $schema, array $receiver_search_conditions)
     {
         if (!$schema instanceof StubMessageSchema) {
             throw new DeveloperException('Input data should be instance of StubMessageSchema');
